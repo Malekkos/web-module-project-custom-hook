@@ -1,7 +1,7 @@
 import { useState , React} from "react"
 
  
-const setDarkMode = (initialValue) => {
+const useDarkMode = (initialValue) => {
   const [boolean, setBoolean] = useState(initialValue)
   const changeBoolean = (value) => {
     setBoolean(!boolean)
@@ -10,4 +10,4 @@ const setDarkMode = (initialValue) => {
 }
 
 
-export default setDarkMode
+export default useDarkMode
